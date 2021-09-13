@@ -1,10 +1,10 @@
 [submodule "lib/microphone-library-for-pico"]
 	path = lib/microphone-library-for-pico
 	url = https://github.com/ArmDeveloperEcosystem/microphone-library-for-pico.git
-[submodule "lib/st7798-library-for-pico"]
-	path = lib/st7798-library-for-pico
-	url = https://github.com/ArmDeveloperEcosystem/st7798-library-for-pico.git
 [submodule "lib/CMSIS_5"]
 	path = lib/CMSIS_5
 	url = https://github.com/ARM-software/CMSIS_5.git
 	shallow = true
+[submodule "lib/st7789-library-for-pico"]
+	path = lib/st7789-library-for-pico
+	url = https://github.com/ArmDeveloperEcosystem/st7789-library-for-pico.git

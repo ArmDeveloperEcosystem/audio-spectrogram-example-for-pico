@@ -1,3 +1,6 @@
 [submodule "lib/microphone-library-for-pico"]
 	path = lib/microphone-library-for-pico
 	url = https://github.com/ArmDeveloperEcosystem/microphone-library-for-pico.git
+[submodule "lib/st7798-library-for-pico"]
+	path = lib/st7798-library-for-pico
+	url = https://github.com/ArmDeveloperEcosystem/st7798-library-for-pico.git

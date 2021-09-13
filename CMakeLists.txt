@@ -38,5 +38,5 @@ pico_enable_stdio_uart(audio_spectrogram 0)
 # create map/bin/hex/uf2 file in addition to ELF.
 pico_add_extra_outputs(audio_spectrogram)
 
-add_subdirectory("lib/pico-microphone" EXCLUDE_FROM_ALL)
-add_subdirectory("lib/pico-st7789" EXCLUDE_FROM_ALL)
+add_subdirectory("lib/microphone-library-for-pico" EXCLUDE_FROM_ALL)
+add_subdirectory("lib/st7789-library-for-pico" EXCLUDE_FROM_ALL)

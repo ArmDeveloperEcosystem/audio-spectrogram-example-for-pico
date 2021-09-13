@@ -4,3 +4,7 @@
 [submodule "lib/st7798-library-for-pico"]
 	path = lib/st7798-library-for-pico
 	url = https://github.com/ArmDeveloperEcosystem/st7798-library-for-pico.git
+[submodule "lib/CMSIS_5"]
+	path = lib/CMSIS_5
+	url = https://github.com/ARM-software/CMSIS_5.git
+	shallow = true

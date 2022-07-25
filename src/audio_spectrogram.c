@@ -132,10 +132,10 @@ int main() {
         // map the FFT magnitude values to pixel values
         for (int i = 0; i < (LCD_WIDTH / 2); i++) {
             // get the current FFT magnitude value
-            q15_t magntitude = fft_mag_q15[i + FFT_BINS_SKIP];
+            q15_t magnitude = fft_mag_q15[i + FFT_BINS_SKIP];
 
             // scale it between 0 to 255 to map, so we can map it to a color based on the color map
-            int color_index = (magntitude / FFT_MAG_MAX) * 255;
+            int color_index = (magnitude / FFT_MAG_MAX) * 255;
 
             if (color_index > 255) {
                 color_index = 255;
